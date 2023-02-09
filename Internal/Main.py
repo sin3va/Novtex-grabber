@@ -8,11 +8,11 @@ from Internal.parse_5 import *
 class Main(tk.Frame):
     def __init__(self, root):
         super().__init__(root)
-        self.img1 = tk.PhotoImage(file='prin.gif')
-        self.img2 = tk.PhotoImage(file='it.gif')
-        self.img3 = tk.PhotoImage(file='mech.gif')
-        self.img4 = tk.PhotoImage(file='mst.gif')
-        self.img5 = tk.PhotoImage(file='bjd.gif')
+        self.img1 = tk.PhotoImage(file='Visual//prin.gif')
+        self.img2 = tk.PhotoImage(file='Visual//it.gif')
+        self.img3 = tk.PhotoImage(file='Visual//mech.gif')
+        self.img4 = tk.PhotoImage(file='Visual//mst.gif')
+        self.img5 = tk.PhotoImage(file='Visual//bjd.gif')
         tk.Label(
             root,
             bg='#bfdfff',
